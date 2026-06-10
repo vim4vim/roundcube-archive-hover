@@ -1,0 +1,10 @@
+{
+    "name": "vim4vim/roundcube-archive-hover",
+    "type": "roundcube-plugin",
+    "description": "Adds an archive button to the message list hover quick-action menu in Roundcube's Elastic skin.",
+    "license": "GPL-3.0-or-later",
+    "version": "1.0.0",
+    "require": {
+        "roundcube/plugin-installer": "~0.3.5"
+    }
+}

@@ -8,6 +8,12 @@ When you hover over a message, an archive icon appears alongside the existing fl
 
 The button is automatically hidden when viewing the Archive folder.
 
+## Keyboard shortcut
+
+Pressing **`A`** archives the selected message(s), like in Thunderbird. It works in the message list, in the preview pane and in the full message view, and archives every selected message at once.
+
+Nothing happens while a text field has focus (so typing into the search box is unaffected), when no message is selected, or when you are already in the Archive folder or one of its subfolders. `Ctrl`/`Cmd`+`A` still selects all messages.
+
 ## Requirements
 
 - Roundcube 1.6+ with the Elastic skin

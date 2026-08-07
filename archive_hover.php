@@ -3,7 +3,8 @@
 /**
  * Archive Hover
  *
- * Adds an archive button to the message list hover quick-action menu.
+ * Adds an archive button to the message list hover quick-action menu
+ * and an "A" keyboard shortcut for archiving.
  * Requires the built-in archive plugin to be active.
  */
 class archive_hover extends rcube_plugin

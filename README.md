@@ -21,7 +21,13 @@ Nothing happens while a text field has focus (so typing into the search box is u
 
 ## Installation
 
-Copy the `archive_hover` folder into your Roundcube `plugins/` directory, then add it to your `config/config.inc.php`:
+The plugin directory **must** be named `archive_hover` — Roundcube loads `plugins/<name>/<name>.php`, so a directory named after this repository fails with "Failed to load plugin file". Clone it with an explicit target:
+
+```sh
+git clone https://github.com/vim4vim/roundcube-archive-hover.git plugins/archive_hover
+```
+
+Then add it to your `config/config.inc.php`:
 
 ```php
 $config['plugins'] = [

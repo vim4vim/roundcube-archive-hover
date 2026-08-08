@@ -16,6 +16,16 @@ if (window.rcmail) {
             p.menu.find('a.delete').before(btn);
         });
 
+        // name the shortcut in the archive plugin's toolbar button too
+        $.each(rcmail.buttons['plugin.archive'] || [], function (i, button) {
+            var el = $('#' + button.id),
+                title = el.attr('title');
+
+            if (title && title.indexOf('(A)') < 0) {
+                el.attr('title', title + ' (A)');
+            }
+        });
+
         function archive_keydown(e) {
             if (rcube_event.get_keycode(e) != 65
                 || e.ctrlKey || e.altKey || e.metaKey || e.shiftKey

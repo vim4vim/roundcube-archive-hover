@@ -12,6 +12,8 @@ The button is automatically hidden when viewing the Archive folder.
 
 Pressing **`A`** archives the selected message(s), like in Thunderbird. It works in the message list, in the preview pane and in the full message view, and archives every selected message at once.
 
+Both the hover button and the archive plugin's own toolbar button name the key in their tooltip, so the shortcut is discoverable from the interface.
+
 Nothing happens while a text field has focus (so typing into the search box is unaffected), when no message is selected, or when you are already in the Archive folder or one of its subfolders. `Ctrl`/`Cmd`+`A` still selects all messages.
 
 ## Requirements
